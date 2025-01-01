@@ -1,0 +1,75 @@
+[
+    {
+      "id": 0,
+      "name": "Chocolate",
+      "text": "Rich and creamy, perfect for a decadent treat.",
+      "price": 5,
+      "quantity": 1,
+      "stars": 4,
+      "image": "/images/chocolate_ice_cream_scoop.png"
+      
+    },
+    {
+      "id": 1,
+      "name": "Vanilla",
+      "text": "Classic and smooth, a timeless flavor that complements everything.",
+      "price": 5,
+      "quantity": 1,
+      "stars": 5,
+      "image": "/images/vanilla_ice_cream_scoop.png"
+    },
+    {
+      "id": 2,
+      "name": "Strawberry",
+      "text": "Sweet and fruity, with a refreshing burst of summer.",
+      "price": 7,
+      "quantity": 1,
+      "stars": 3,
+      "image": "/images/strawberry_ice_cream_scoop.png"
+    },
+    {
+      "id": 3,
+      "name": "Pistachio Chip",
+      "text": "Nutty and flavorful, offering a unique and satisfying taste.",
+      "price": 7,
+      "quantity": 1,
+      "stars": 5,
+      "image": "/images/pistachio_ice_cream_scoop.png"
+    },
+    {
+      "id": 4,
+      "name": "Vanilla Chip",
+      "text": "Rich and creamy, perfect for a decadent treat.",
+      "price": 5,
+      "quantity": 1,
+      "stars": 4,
+      "image": "/images/vanill-chocolate-chip.png"
+    },
+    {
+      "id": 5,
+      "name": "Vanilla 2",
+      "text": "Classic and smooth, a timeless flavor that complements everything.",
+      "price": 5,
+      "quantity": 1,
+      "stars": 5,
+      "image": "/images/vanilla_ice_cream_scoop.png"
+    },
+    {
+      "id": 6,
+      "name": "Strawberry",
+      "text": "Sweet and fruity, with a refreshing burst of summer.",
+      "price": 7,
+      "quantity": 1,
+      "stars": 3,
+      "image": "/images/strawberry_ice_cream_scoop.png"
+    },
+    {
+      "id": 7,
+      "name": "Mint Chocolate",
+      "text": "Nutty and flavorful, offering a unique and satisfying taste.",
+      "price": 7,
+      "quantity": 1,
+      "stars": 5,
+      "image": "/images/chocolate-mint.png"
+    }
+  ]

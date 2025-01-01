@@ -1,0 +1,291 @@
+{
+    "language-default": "he-IL",
+    "language-text": "he",
+    "navbar": [
+        { "label": "עלינו", "id": "about", "href": "#about-us" },
+        { "label": "מפה", "id": "li-map", "href": "#picture-and-map" },
+        { "label": "תמונות", "id": "photos", "href": "#our-photos" }
+    ],
+    "filter": [
+        { "label": "הכל", "id": "all", "value": "0" },
+        { "label": 4, "id": "four", "value": "4" },
+        { "label": 3, "id": "three", "value": "3" },
+        { "label": 2, "id": "two", "value": "2" }
+    ],
+    "heroPara": "הכנו לכם רשימה מדהימה עם מלא אופציות לינה באי פנגן, תאילנד. המלונות שתמצאו אצלנו בקבוצה נבחרו בקפידה כפי שאנחנו מחפשים את המלונות לחופשה שלנו ..",
+    "ctaButton": "Linktree שלי",
+    "ctaText": "למלונות",
+    "article-header": " מלונות בקופנגן",
+    "article-main-paragraph": "הכנו לכם רשימה מדהימה עם מלא אופציות לינה באי פנגן, תאילנד. המלונות שתמצאו אצלנו בקבוצה נבחרו בקפידה כפי שאנחנו מחפשים את המלונות לחופשה שלנו על ידי חיפוש מעמיק, השוואות וביקורות בשלל ערוצים. מלונות המתאימים לזוגות, לירח דבש, משפחות ותרמילאים שאוהבים לנפוש ולטייל. אם אתם מתכננים חופשה מושלמת בתאילנד, בין אם מדובר בחופשה רומנטית של בטן גב, בונגלו פשוט על החוף, ירח דבש קסום או חופשה יוקרתית, בקופנגן תמצאו מגוון אפשרויות לשהות שתתאים לצרכים שלכם. קופנגן הוא אי יפהפה בתאילנד, הממוקם כחצי שעה מהאי קוסמוי. עם חופים טרופיים מרהיבים, מים צלולים ואווירה מרגיעה, קצת כמו סיני. האי מציע חוויה מגוונת לכל סוגי המטיילים: זוגות, משפחות ותרמילאים. הכל מהכל — מחופשת בטן גב ועד פעילויות מגוונות כמו טיולי טבע, שנורקלינג, צלילה, קייט, מסיבות מטורפות ותרבות מקומית עשירה. תוכלו ליהנות גם מסדנאות רבות ומגוונות: יוגה, מדיטציה, איגרוף - תאילנדי, קערות טיבטיות וטנטרה. טונג סלה היא העיירה המסחרית הגדולה באי, עם סופרים, ברים ושווקים מקומיים, שם גם נמצא המזח. באן תאי קרובה למסיבות הפול מון ומומלצת לחובבי גלישת קייט. הדרין בדרום האי, היא עיירה רגועה בדרך כלל עם חוף ים מדהים. אך פעם בחודש במסיבת הפולמון, תפגשו באלפי תיירים מכל העולם ובמלונות יבקשו מינימום הזמנה של 4 לילות. הצד המזרחי של האי, טונג נאי פאן, מציע רצועת חוף מדהימה ומושלמת לבטן גב עם מלונות מפוארים המתאימים לירח דבש, לזוגות ומשפחות. בצד המערבי של האי, באזורים כמו וואק טום, הין קונג וסריטנו, תמצאו מגוון סדנאות, בתי קפה ומסעדות, עם אופציות לינה מגוונות מבונגלוס פשוטים ועד יוקרתיים. חופים שקטים כמו הד יהאו, האד סאלאד וצ'אלוקלם-עיירת הדייגים, מציעים חווית חופשה רגועה באווירה מקסימלית של תאילנד.",
+    "article-second-paragraph": "אתר אגודה יותר מומלץ במזרח ולכן החלטתי להיות משווק שלהם, כחלק מהשירות שלי, אני משתף קישורים ישירים למלונות שלהם. כשאתם סוגרים דרך הקישור, אני מרוויח עמלה. ללא עלות נוספת מצידכם. זאת העבודה שלי. וככה אתם יכולים לפרגן לי בחזרה.",
+    "instagram-link": "https://google.com",
+    "go-to-link": "https://linktr.ee/bagditravel",
+    "map-title": {
+        "mobile": "לחצו על המפה",
+        "desktop": "רחפו מעל המפה"
+    },
+    "resorts-and-hotels-title": "ריזורטים & מלונות",
+    "regions": [
+        {
+            "regionName": "Thong Sala - מלונות באזור טונג סלה",
+            "regionAffiliates": [{
+                    "affiliateName": "Samutra Residences",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "וילות על הים עם בריכה פרטית ובריכה משותפת, מתאים למשפחות וזוגות, בנוי בסגנון מודרני ומפנק. מקום שקט ורגוע לבטן גב.",
+                    "affiliateGoogleScore": 4.7,
+                    "affiliateLink": "https://agoda.tp.st/KPKaWglL",
+                    "affiliateStyleImage": "../images/samutra-residences.webp"
+                },
+                {
+                    "affiliateName": "Summer Luxury Beach Resort & Spa",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "מלון עם ספא מפנק, בר ומסעדה ברמה גבוה. יש חדרים עם בריכה פרטית ויש בריכה משותפת. הכל בנוי בסגנון מודרני וברמה גבוה. מתאים לזוגות ומשפחות שרוצות להתפנק",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Zc2a5DmZ",
+                    "affiliateStyleImage": "../images/summer-luxury-beach-resort-and-spa.webp"
+                },
+                {
+                    "affiliateName": "Sabaii Bay Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "מלון מתאים לזוגות ומשפחות עם ילדים. מקבלים בברכה חיות מחמד. יש בריכה משותפת, מסעדה ובר על הים. בריזורט יש חדר כושר עם מספר מתקנים.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/3D7ZBbac",
+                    "affiliateStyleImage": "../images/sabaii-bay-resort.webp"
+                },
+                {
+                    "affiliateName": "Lime N Soda Beachfront Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "בונגלוס על הים עם בריכה משותפת, מלון בסגנון מודרני עם חדרים יחסית פשוטים. מתאים למטיילים יחידים,זוגות ומשפחות. במקום יש מסעדה עם צוות אדיב ושירותי. ממוקם בין טונג סלה לבאן תאי. באווירה רגועה ושקטה.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/oggJV9I5",
+                    "affiliateStyleImage": "../images/lime-n-soda-beachfront-resort.webp"
+                },
+                {
+                    "affiliateName": "V-View Beach Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "בונגלוס מעץ בנוי בסגנון תאילנדי פשוט לחוויה אותטנית, במקום יש בריכה משותפת ומסעדה. ערסלים ונדנדות על חוף הים. מתאים לזוגות ומאוד ידידותיים למשפחות עם ילדים.",
+                    "affiliateGoogleScore": 4.5,
+                    "affiliateLink": "https://agoda.tp.st/l7yX8nfw",
+                    "affiliateStyleImage": "../images/v-view-beach-resort.jpg"
+                },
+                {
+                    "affiliateName": "Tropicana Khophagan Resort Hotel",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "בונגלוס פשוט מעץ בנוי בסגנון תאילנדי על חוף הים, מתאים לצעירים ותרמילאים או משפחות שלא מחפשות פינוק. בחוף יש פינות ישיבה וערסלים מפוזרים במתחם.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Igphx4Am",
+                    "affiliateStyleImage": "../images/panviman-resort.png"
+                }
+            ]
+        },
+        {
+            "regionName": "מלונות באזור באן תאי Ban Tai",
+            "regionAffiliates": [{
+                    "affiliateName": "Samutra Residences",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "וילות על הים עם בריכה פרטית ובריכה משותפת, מתאים למשפחות וזוגות, בנוי בסגנון מודרני ומפנק. מקום שקט ורגוע לבטן גב.",
+                    "affiliateGoogleScore": 4.7,
+                    "affiliateLink": "https://agoda.tp.st/KPKaWglL",
+                    "affiliateStyleImage": "../images/samutra-residences.webp"
+                },
+                {
+                    "affiliateName": "Summer Luxury Beach Resort & Spa",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "מלון עם ספא מפנק, בר ומסעדה ברמה גבוה. יש חדרים עם בריכה פרטית ויש בריכה משותפת. הכל בנוי בסגנון מודרני וברמה גבוה. מתאים לזוגות ומשפחות שרוצות להתפנק",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Zc2a5DmZ",
+                    "affiliateStyleImage": "../images/summer-luxury-beach-resort-and-spa.webp"
+                },
+                {
+                    "affiliateName": "Sabaii Bay Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "מלון מתאים לזוגות ומשפחות עם ילדים. מקבלים בברכה חיות מחמד. יש בריכה משותפת, מסעדה ובר על הים. בריזורט יש חדר כושר עם מספר מתקנים.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/3D7ZBbac",
+                    "affiliateStyleImage": "../images/sabaii-bay-resort.webp"
+                },
+                {
+                    "affiliateName": "Lime N Soda Beachfront Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "בונגלוס על הים עם בריכה משותפת, מלון בסגנון מודרני עם חדרים יחסית פשוטים. מתאים למטיילים יחידים,זוגות ומשפחות. במקום יש מסעדה עם צוות אדיב ושירותי. ממוקם בין טונג סלה לבאן תאי. באווירה רגועה ושקטה.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/oggJV9I5",
+                    "affiliateStyleImage": "../images/lime-n-soda-beachfront-resort.webp"
+                },
+                {
+                    "affiliateName": "V-View Beach Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "בונגלוס מעץ בנוי בסגנון תאילנדי פשוט לחוויה אותטנית, במקום יש בריכה משותפת ומסעדה. ערסלים ונדנדות על חוף הים. מתאים לזוגות ומאוד ידידותיים למשפחות עם ילדים.",
+                    "affiliateGoogleScore": 4.5,
+                    "affiliateLink": "https://agoda.tp.st/l7yX8nfw",
+                    "affiliateStyleImage": "../images/v-view-beach-resort.jpg"
+                },
+                {
+                    "affiliateName": "Tropicana Khophagan Resort Hotel",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "בונגלוס פשוט מעץ בנוי בסגנון תאילנדי על חוף הים, מתאים לצעירים ותרמילאים או משפחות שלא מחפשות פינוק. בחוף יש פינות ישיבה וערסלים מפוזרים במתחם.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Igphx4Am",
+                    "affiliateStyleImage": "../images/panviman-resort.png"
+                }
+            ]
+        },
+        {
+            "regionName": "Thong Sala - מלונות באזור טונג סלה",
+            "regionAffiliates": [{
+                    "affiliateName": "Samutra Residences",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "וילות על הים עם בריכה פרטית ובריכה משותפת, מתאים למשפחות וזוגות, בנוי בסגנון מודרני ומפנק. מקום שקט ורגוע לבטן גב.",
+                    "affiliateGoogleScore": 4.7,
+                    "affiliateLink": "https://agoda.tp.st/KPKaWglL",
+                    "affiliateStyleImage": "../images/samutra-residences.webp"
+                },
+                {
+                    "affiliateName": "Summer Luxury Beach Resort & Spa",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "מלון עם ספא מפנק, בר ומסעדה ברמה גבוה. יש חדרים עם בריכה פרטית ויש בריכה משותפת. הכל בנוי בסגנון מודרני וברמה גבוה. מתאים לזוגות ומשפחות שרוצות להתפנק",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Zc2a5DmZ",
+                    "affiliateStyleImage": "../images/summer-luxury-beach-resort-and-spa.webp"
+                },
+                {
+                    "affiliateName": "Sabaii Bay Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "מלון מתאים לזוגות ומשפחות עם ילדים. מקבלים בברכה חיות מחמד. יש בריכה משותפת, מסעדה ובר על הים. בריזורט יש חדר כושר עם מספר מתקנים.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/3D7ZBbac",
+                    "affiliateStyleImage": "../images/sabaii-bay-resort.webp"
+                },
+                {
+                    "affiliateName": "Lime N Soda Beachfront Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "בונגלוס על הים עם בריכה משותפת, מלון בסגנון מודרני עם חדרים יחסית פשוטים. מתאים למטיילים יחידים,זוגות ומשפחות. במקום יש מסעדה עם צוות אדיב ושירותי. ממוקם בין טונג סלה לבאן תאי. באווירה רגועה ושקטה.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/oggJV9I5",
+                    "affiliateStyleImage": "../images/lime-n-soda-beachfront-resort.webp"
+                },
+                {
+                    "affiliateName": "V-View Beach Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "בונגלוס מעץ בנוי בסגנון תאילנדי פשוט לחוויה אותטנית, במקום יש בריכה משותפת ומסעדה. ערסלים ונדנדות על חוף הים. מתאים לזוגות ומאוד ידידותיים למשפחות עם ילדים.",
+                    "affiliateGoogleScore": 4.5,
+                    "affiliateLink": "https://agoda.tp.st/l7yX8nfw",
+                    "affiliateStyleImage": "../images/v-view-beach-resort.jpg"
+                },
+                {
+                    "affiliateName": "Tropicana Khophagan Resort Hotel",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "בונגלוס פשוט מעץ בנוי בסגנון תאילנדי על חוף הים, מתאים לצעירים ותרמילאים או משפחות שלא מחפשות פינוק. בחוף יש פינות ישיבה וערסלים מפוזרים במתחם.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Igphx4Am",
+                    "affiliateStyleImage": "../images/panviman-resort.png"
+                }
+            ]
+        },
+        {
+            "regionName": "Thong Sala - מלונות באזור טונג סלה",
+            "regionAffiliates": [{
+                    "affiliateName": "Samutra Residences",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "וילות על הים עם בריכה פרטית ובריכה משותפת, מתאים למשפחות וזוגות, בנוי בסגנון מודרני ומפנק. מקום שקט ורגוע לבטן גב.",
+                    "affiliateGoogleScore": 4.7,
+                    "affiliateLink": "https://agoda.tp.st/KPKaWglL",
+                    "affiliateStyleImage": "../images/samutra-residences.webp"
+                },
+                {
+                    "affiliateName": "Summer Luxury Beach Resort & Spa",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "מלון עם ספא מפנק, בר ומסעדה ברמה גבוה. יש חדרים עם בריכה פרטית ויש בריכה משותפת. הכל בנוי בסגנון מודרני וברמה גבוה. מתאים לזוגות ומשפחות שרוצות להתפנק",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Zc2a5DmZ",
+                    "affiliateStyleImage": "../images/summer-luxury-beach-resort-and-spa.webp"
+                },
+                {
+                    "affiliateName": "Sabaii Bay Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "מלון מתאים לזוגות ומשפחות עם ילדים. מקבלים בברכה חיות מחמד. יש בריכה משותפת, מסעדה ובר על הים. בריזורט יש חדר כושר עם מספר מתקנים.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/3D7ZBbac",
+                    "affiliateStyleImage": "../images/sabaii-bay-resort.webp"
+                },
+                {
+                    "affiliateName": "Lime N Soda Beachfront Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "בונגלוס על הים עם בריכה משותפת, מלון בסגנון מודרני עם חדרים יחסית פשוטים. מתאים למטיילים יחידים,זוגות ומשפחות. במקום יש מסעדה עם צוות אדיב ושירותי. ממוקם בין טונג סלה לבאן תאי. באווירה רגועה ושקטה.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/oggJV9I5",
+                    "affiliateStyleImage": "../images/lime-n-soda-beachfront-resort.webp"
+                },
+                {
+                    "affiliateName": "V-View Beach Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "בונגלוס מעץ בנוי בסגנון תאילנדי פשוט לחוויה אותטנית, במקום יש בריכה משותפת ומסעדה. ערסלים ונדנדות על חוף הים. מתאים לזוגות ומאוד ידידותיים למשפחות עם ילדים.",
+                    "affiliateGoogleScore": 4.5,
+                    "affiliateLink": "https://agoda.tp.st/l7yX8nfw",
+                    "affiliateStyleImage": "../images/v-view-beach-resort.jpg"
+                },
+                {
+                    "affiliateName": "Tropicana Khophagan Resort Hotel",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "בונגלוס פשוט מעץ בנוי בסגנון תאילנדי על חוף הים, מתאים לצעירים ותרמילאים או משפחות שלא מחפשות פינוק. בחוף יש פינות ישיבה וערסלים מפוזרים במתחם.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Igphx4Am",
+                    "affiliateStyleImage": "../images/panviman-resort.png"
+                }
+            ]
+        },
+        {
+            "regionName": "Thong Sala - מלונות באזור טונג סלה",
+            "regionAffiliates": [{
+                    "affiliateName": "Samutra Residences",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "וילות על הים עם בריכה פרטית ובריכה משותפת, מתאים למשפחות וזוגות, בנוי בסגנון מודרני ומפנק. מקום שקט ורגוע לבטן גב.",
+                    "affiliateGoogleScore": 4.7,
+                    "affiliateLink": "https://agoda.tp.st/KPKaWglL",
+                    "affiliateStyleImage": "../images/samutra-residences.webp"
+                },
+                {
+                    "affiliateName": "Summer Luxury Beach Resort & Spa",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "מלון עם ספא מפנק, בר ומסעדה ברמה גבוה. יש חדרים עם בריכה פרטית ויש בריכה משותפת. הכל בנוי בסגנון מודרני וברמה גבוה. מתאים לזוגות ומשפחות שרוצות להתפנק",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Zc2a5DmZ",
+                    "affiliateStyleImage": "../images/summer-luxury-beach-resort-and-spa.webp"
+                },
+                {
+                    "affiliateName": "Sabaii Bay Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "מלון מתאים לזוגות ומשפחות עם ילדים. מקבלים בברכה חיות מחמד. יש בריכה משותפת, מסעדה ובר על הים. בריזורט יש חדר כושר עם מספר מתקנים.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/3D7ZBbac",
+                    "affiliateStyleImage": "../images/sabaii-bay-resort.webp"
+                },
+                {
+                    "affiliateName": "Lime N Soda Beachfront Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "בונגלוס על הים עם בריכה משותפת, מלון בסגנון מודרני עם חדרים יחסית פשוטים. מתאים למטיילים יחידים,זוגות ומשפחות. במקום יש מסעדה עם צוות אדיב ושירותי. ממוקם בין טונג סלה לבאן תאי. באווירה רגועה ושקטה.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/oggJV9I5",
+                    "affiliateStyleImage": "../images/lime-n-soda-beachfront-resort.webp"
+                },
+                {
+                    "affiliateName": "V-View Beach Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "בונגלוס מעץ בנוי בסגנון תאילנדי פשוט לחוויה אותטנית, במקום יש בריכה משותפת ומסעדה. ערסלים ונדנדות על חוף הים. מתאים לזוגות ומאוד ידידותיים למשפחות עם ילדים.",
+                    "affiliateGoogleScore": 4.5,
+                    "affiliateLink": "https://agoda.tp.st/l7yX8nfw",
+                    "affiliateStyleImage": "../images/v-view-beach-resort.jpg"
+                },
+                {
+                    "affiliateName": "Tropicana Khophagan Resort Hotel",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "בונגלוס פשוט מעץ בנוי בסגנון תאילנדי על חוף הים, מתאים לצעירים ותרמילאים או משפחות שלא מחפשות פינוק. בחוף יש פינות ישיבה וערסלים מפוזרים במתחם.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Igphx4Am",
+                    "affiliateStyleImage": "../images/panviman-resort.png"
+                }
+            ]
+        }
+    ],
+    "vacation-photos-title": "תהנו מתמונות החופשה שלנו"
+}

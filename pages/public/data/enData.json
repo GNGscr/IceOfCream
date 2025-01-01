@@ -1,0 +1,136 @@
+{
+    "language-default": "he-IL",
+    "language-text": "he",
+    "navbar": [
+        { "label": "About Us", "id": "about", "href": "#about-us" },
+        { "label": "Map", "id": "li-map", "href": "#picture-and-map" },
+        { "label": "Photos", "id": "photos", "href": "#our-photos" }
+    ],
+    "filter": [
+        { "label": "All", "id": "all", "value": "0" },
+        { "label": 4, "id": "four", "value": "4" },
+        { "label": 3, "id": "three", "value": "3" },
+        { "label": 2, "id": "two", "value": "2" }
+    ],
+    "heroPara": "We have prepared an amazing list with many accommodation options on Koh Phangan, Thailand. The hotels you will find in our group were carefully selected as we look for hotels for our vacation.",
+    "ctaButton": "My Linktree",
+    "ctaText": "To Hotels",
+    "article-header": "Hotels in Koh Phangan",
+    "article-main-paragraph": "We have prepared an amazing list with many accommodation options on Koh Phangan, Thailand. The hotels you will find in our group were selected with care, as we search for hotels for our vacation through deep searches, comparisons, and reviews across various channels. Hotels suitable for couples, honeymooners, families, and backpackers who love to relax and explore. If you are planning a perfect vacation in Thailand, whether it is a romantic getaway, a simple beachfront bungalow, a magical honeymoon, or a luxurious vacation, on Koh Phangan you will find a variety of options that suit your needs. Koh Phangan is a beautiful island in Thailand, located about half an hour from Koh Samui. With stunning tropical beaches, clear waters, and a relaxing atmosphere, it’s somewhat like Sinai. The island offers a diverse experience for all types of travelers: couples, families, and backpackers. Everything from a relaxing beach vacation to various activities such as nature tours, snorkeling, diving, kitesurfing, wild parties, and rich local culture. You can also enjoy numerous and diverse workshops: yoga, meditation, Muay Thai boxing, Tibetan bowls, and tantra. Thong Sala is the largest commercial town on the island, with supermarkets, bars, and local markets, and is also where the pier is located. Ban Tai is close to the Full Moon parties and is recommended for kite surfing enthusiasts. Haad Rin in the south of the island is usually a calm town with an amazing beach. But once a month, during the Full Moon party, you will encounter thousands of tourists from all over the world, and hotels will require a minimum booking of 4 nights. The eastern side of the island, Thong Nai Pan, offers a stunning beach strip perfect for relaxing with luxurious hotels suitable for honeymoons, couples, and families. On the western side of the island, in areas like Wok Tum, Hin Kong, and Srithanu, you will find a variety of workshops, cafes, and restaurants, with diverse accommodation options ranging from simple to luxurious bungalows. Quiet beaches like Had Yao, Had Salad, and Chaloklum (the fishing village) offer a serene vacation experience with the ultimate Thai atmosphere.",
+    "article-second-paragraph": "Agoda's site is more recommended in the east, so I decided to become their affiliate. As part of my service, I share direct links to their hotels. When you book through the link, I earn a commission, at no extra cost to you. This is my job, and this is how you can support me in return.",
+    "instagram-link": "https://google.com",
+    "go-to-link": "https://linktr.ee/bagditravel",
+    "map-title": {
+        "mobile": "Tap on the map",
+        "desktop": "Hover over the map"
+    },
+    "resorts-and-hotels-title": "Resorts & Hotels",
+    "regions": [
+        {
+            "regionName": "Thong Sala - Hotels in the Thong Sala Area",
+            "regionAffiliates": [
+                {
+                    "affiliateName": "Samutra Residences",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "Beachfront villas with private and shared pools, suitable for families and couples, built in a modern and luxurious style. A quiet and relaxing place to unwind.",
+                    "affiliateGoogleScore": 4.7,
+                    "affiliateLink": "https://agoda.tp.st/KPKaWglL",
+                    "affiliateStyleImage": "../images/samutra-residences.webp"
+                },
+                {
+                    "affiliateName": "Summer Luxury Beach Resort & Spa",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "Hotel with a luxurious spa, bar, and high-quality restaurant. Some rooms have private pools and there is a shared pool. Everything is built in a modern and high-quality style. Suitable for couples and families who want to indulge.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Zc2a5DmZ",
+                    "affiliateStyleImage": "../images/summer-luxury-beach-resort-and-spa.webp"
+                },
+                {
+                    "affiliateName": "Sabaii Bay Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "Hotel suitable for couples and families with children. Pets are welcome. There is a shared pool, restaurant, and bar on the beach. The resort has a gym with several facilities.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/3D7ZBbac",
+                    "affiliateStyleImage": "../images/sabaii-bay-resort.webp"
+                },
+                {
+                    "affiliateName": "Lime N Soda Beachfront Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "Beachfront bungalows with a shared pool, a modern-style hotel with relatively simple rooms. Suitable for solo travelers, couples, and families. There is a restaurant with a friendly and efficient staff. Located between Thong Sala and Ban Tai, in a relaxed and quiet atmosphere.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/oggJV9I5",
+                    "affiliateStyleImage": "../images/lime-n-soda-beachfront-resort.webp"
+                },
+                {
+                    "affiliateName": "V-View Beach Resort",
+                    "affiliateNumberOfStars": 2,
+                    "affiliateContent": "Wooden bungalows built in a simple Thai style for an authentic experience, with a shared pool and restaurant. Hammocks and swings on the beach. Suitable for couples and very family-friendly.",
+                    "affiliateGoogleScore": 4.5,
+                    "affiliateLink": "https://agoda.tp.st/l7yX8nfw",
+                    "affiliateStyleImage": "../images/v-view-beach-resort.jpg"
+                },
+                {
+                    "affiliateName": "Tropicana Khophagan Resort Hotel",
+                    "affiliateNumberOfStars": 4,
+                    "affiliateContent": "Simple wooden bungalows built in Thai style on the beach, suitable for young people, backpackers, or families not seeking luxury. The beach has seating areas and scattered hammocks.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Igphx4Am",
+                    "affiliateStyleImage": "../images/panviman-resort.png"
+                }
+            ]
+        },
+        {
+            "regionName": "Ban Tai - Hotels in the Ban Tai Area",
+            "regionAffiliates": [
+                {
+                    "affiliateName": "Samutra Residences",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "Beachfront villas with private and shared pools, suitable for families and couples, built in a modern and luxurious style. A quiet and relaxing place to unwind.",
+                    "affiliateGoogleScore": 4.7,
+                    "affiliateLink": "https://agoda.tp.st/KPKaWglL",
+                    "affiliateStyleImage": "../images/samutra-residences.webp"
+                },
+                {
+                    "affiliateName": "Summer Luxury Beach Resort & Spa",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "Hotel with a luxurious spa, bar, and high-quality restaurant. Some rooms have private pools and there is a shared pool. Everything is built in a modern and high-quality style. Suitable for couples and families who want to indulge.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Zc2a5DmZ",
+                    "affiliateStyleImage": "../images/summer-luxury-beach-resort-and-spa.webp"
+                },
+                {
+                    "affiliateName": "Sabaii Bay Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "Hotel suitable for couples and families with children. Pets are welcome. There is a shared pool, restaurant, and bar on the beach. The resort has a gym with several facilities.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/3D7ZBbac",
+                    "affiliateStyleImage": "../images/sabaii-bay-resort.webp"
+                },
+                {
+                    "affiliateName": "Lime N Soda Beachfront Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "Beachfront bungalows with a shared pool, a modern-style hotel with relatively simple rooms. Suitable for solo travelers, couples, and families. There is a restaurant with a friendly and efficient staff. Located between Thong Sala and Ban Tai, in a relaxed and quiet atmosphere.",
+                    "affiliateGoogleScore": 4.1,
+                    "affiliateLink": "https://agoda.tp.st/oggJV9I5",
+                    "affiliateStyleImage": "../images/lime-n-soda-beachfront-resort.webp"
+                },
+                {
+                    "affiliateName": "V-View Beach Resort",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "Wooden bungalows built in a simple Thai style for an authentic experience, with a shared pool and restaurant. Hammocks and swings on the beach. Suitable for couples and very family-friendly.",
+                    "affiliateGoogleScore": 4.5,
+                    "affiliateLink": "https://agoda.tp.st/l7yX8nfw",
+                    "affiliateStyleImage": "../images/v-view-beach-resort.jpg"
+                },
+                {
+                    "affiliateName": "Tropicana Khophagan Resort Hotel",
+                    "affiliateNumberOfStars": 3,
+                    "affiliateContent": "Simple wooden bungalows built in Thai style on the beach, suitable for young people, backpackers, or families not seeking luxury. The beach has seating areas and scattered hammocks.",
+                    "affiliateGoogleScore": 4.4,
+                    "affiliateLink": "https://agoda.tp.st/Igphx4Am",
+                    "affiliateStyleImage": "../images/panviman-resort.png"
+                }
+            ]
+        }
+    ]
+}

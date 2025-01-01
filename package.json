@@ -1,5 +1,5 @@
 {
-  "name": "intro-animation",
+  "name": "icefromcream",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^1.0.42",
+    "framer-motion": "^11.5.4",
     "gsap": "^3.12.5",
     "next": "14.2.8",
     "react": "^18",
