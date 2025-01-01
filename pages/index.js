@@ -344,7 +344,7 @@ export default function Home() {
                   className="about-text">
                     <h2>The Necessary Food <br/> For a Good Mood</h2>
                     <p>While ice cream might not be a daily staple, it can certainly boost your mood in moderation.</p>
-                    <p>The pleasure of enjoying a sweet treat like ice cream can release endorphins, giving you a momentary happiness boost. Choosing flavors with fruits or nuts can add a nutritional benefit while still indulging. Remember, while it's okay to enjoy ice cream as a treat, balancing it with nutrient-rich foods like fruits and vegetables is key to maintaining overall well-being and a consistently positive mood.</p>
+                    <p>The pleasure of enjoying a sweet treat like ice cream can release endorphins, giving you a momentary happiness boost. Choosing flavors with fruits or nuts can add a nutritional benefit while still indulging. Remember, while it is okay to enjoy ice cream as a treat, balancing it with nutrient-rich foods like fruits and vegetables is key to maintaining overall well-being and a consistently positive mood.</p>
                     <a href="#menu" className="btn">Choose a Flavor</a>
                 </div>
             </section>
