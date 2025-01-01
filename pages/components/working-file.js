@@ -90,6 +90,7 @@ export default function Home() {
 
   useEffect(() => {
     renderCart();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cart]);
 
   return (
