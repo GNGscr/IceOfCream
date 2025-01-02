@@ -1276,7 +1276,11 @@ h4 {
     width: 11rem;
   }
   .cart-title-wrapper {
-    width: 58vw;
+    width: 26.5vw;
+    /* height: 4rem; */
+  }
+  .tooltip {
+    top: -1.5rem !important;
   }
   .cart-title {
     padding: 0;
@@ -1364,6 +1368,10 @@ h4 {
 }
 
 @media (max-width: 680px) {
+  .navbar {
+    height: 91vh;
+    justify-content: space-evenly;
+  }
   
   .cart-title-wrapper {
     width: 57.5vw;
