@@ -1309,6 +1309,9 @@ h4 {
   .explaination, .pitch, .back-to-site-btn {
     width: 80vw;
   }
+  .navbar a {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 820px) {
@@ -1381,7 +1384,9 @@ h4 {
     justify-content: flex-start;
     row-gap: 1.5rem;
   }
-  
+  .navbar a {
+    font-size: 1.75rem;
+  }
   .cart-title-wrapper {
     width: 57.5vw;
   }
