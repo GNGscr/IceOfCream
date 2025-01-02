@@ -466,7 +466,7 @@ export default function Home() {
         {isModalOpen
             ? <div className="order-now-modal">
             <div className="explaination">
-                This is a demo site for illustration purpuses Only
+                This is a website for demonstration purpuses Only
             </div>
             
             <div className="pitch">
