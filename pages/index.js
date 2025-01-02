@@ -357,13 +357,17 @@ export default function Home() {
             <div className="last-text">
                 <p>@ Developed 2024 by Daniel Ehrlich</p>
             </div>
+            
           </div>
         
-          {/* <!--  shoping cart section --> */}
+            {/* <!--  shoping cart toggle bg --> */}
+
             <div className={`shoping-cart-container
                 ${isCartVisible ? 'show-menu-container' : ''}`}
                 onClick={() => setIsCartVisible(false)}
-            />
+                />
+
+            {/* <!--  shoping cart section --> */}
 
             <ShopingCart
                 isCartVisible={isCartVisible}
