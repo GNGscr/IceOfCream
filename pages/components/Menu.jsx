@@ -2,7 +2,6 @@ import Image from "next/image";
 import chocolataBall from '../public/images/chocolate_ice_cream_scoop.png';
 
 export default function Menu({ data, typingText, starIconRating, isSlidingCartVisible, shoppingCartOrange, cartId, addToCart }) {
-    if (data) return;
     return (
         <section className="menu" id="menu">
         <div className="main-text">
@@ -13,7 +12,7 @@ export default function Menu({ data, typingText, starIconRating, isSlidingCartVi
         </div>
 
         <div className="menu-content">
-            {data.map((item, index) => {
+            {data ? data.map((item, index) => {
                 return (
                   <div key={index} className="row"
                       style={{ 
@@ -46,7 +45,7 @@ export default function Menu({ data, typingText, starIconRating, isSlidingCartVi
                       </div>
                   </div>
                 )
-            }) || ''}
+            }) : ''}
         </div>
     </section>
     )
