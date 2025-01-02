@@ -1378,7 +1378,7 @@ h4 {
     padding: 0 auto;
   }
   .home-text > .btn {
-    bottom: 0rem;
+    bottom: -2rem;
   }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
