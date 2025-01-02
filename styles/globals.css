@@ -1288,7 +1288,7 @@ h4 {
   }
   .shoping-cart {
     width: calc(265px * 3);
-    height: 87.5vh;
+    height: 85vh;
   }
   .shoping-cart-container {
     height: 100vh;
@@ -1384,7 +1384,8 @@ h4 {
   }
   .shoping-cart {
     height: 92.5vh;
-    width: 265px;
+    /* width: 265px; */
+    width: 85vw;
   }
   .show-shoping-cart {
     right: 0rem;
