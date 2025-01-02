@@ -469,7 +469,7 @@ export default function Home() {
                 This is a demo site for illustration purpuses Only
             </div>
             
-            <div>
+            <div className="pitch">
                 If you would like to use my services go to this site
                 Or send Email
                 Phone

@@ -1405,6 +1405,25 @@ h4 {
     max-height: 90vw;
     aspect-ratio: auto;
   }
+  .order-now-modal {
+    font-size: 0.5rem;
+    padding: 0px 12.5rem !important;
+  }
+  .pitch,
+  .explaination,
+  .back-to-site-btn {
+    width: 80vw;
+  }
+  .explaination {
+    font-size: 1.85rem;
+  }
+  .pitch {
+    font-size: 1.5rem;
+  }
+  .back-to-site-btn {
+    margin-top: 5rem;
+    font-size: 0.85rem;
+  }
 }
 @media (max-width: 412px) {
     
