@@ -1380,7 +1380,7 @@ h4 {
     margin: 0 1rem;
   }
   .home-text > .btn {
-    bottom: -2.5rem;
+    bottom: -3rem;
   }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
