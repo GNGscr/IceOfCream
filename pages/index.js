@@ -23,6 +23,7 @@ import chocolataBall from './public/images/chocolate_ice_cream_scoop.png';
 import Menu from "./components/Menu";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
+import ShopingCart from "./components/ShopingCart";
 
 
 export default function Home() {
@@ -202,22 +203,6 @@ export default function Home() {
     setIsCartVisible(false);
   }
 
-  const orderNowModal = () => {
-    return (
-        <div className="order-now-modal">
-            <div>
-                This is a demo site for illustration purpuses Only
-                If you would like to use my services go to this site
-                Or send Email
-                Phone
-                Message
-            </div>
-            
-            <div className="back-to-site-btn">Go back to site to play some more..</div>
-        </div>
-    )
-  }
-
   useEffect(() => {
     renderCart();
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -234,12 +219,21 @@ export default function Home() {
         </Head>
         
         <main>
-            
+
           {/* header section */}
 
           <Header
-            showNavBg={showNavBg} logo={logo} isNavMenuVisible={isNavMenuVisible} hideNavbarOnClickSmallMedia={hideNavbarOnClickSmallMedia} toggleCart={toggleCart} 
-            shoppingCartIcon={shoppingCartIcon} isCartStatusVisible={isCartStatusVisible} resizeCartStatus={resizeCartStatus} toggleMenu={toggleMenu} hamburgerIcon={hamburgerIcon} falvorCount={falvorCount}
+            showNavBg={showNavBg}
+            logo={logo}
+            isNavMenuVisible={isNavMenuVisible}
+            hideNavbarOnClickSmallMedia={hideNavbarOnClickSmallMedia}
+            toggleCart={toggleCart} 
+            shoppingCartIcon={shoppingCartIcon}
+            isCartStatusVisible={isCartStatusVisible}
+            resizeCartStatus={resizeCartStatus}
+            toggleMenu={toggleMenu}
+            hamburgerIcon={hamburgerIcon}
+            falvorCount={falvorCount}
           />
 
           <div className="popup-wrapper">
@@ -248,6 +242,7 @@ export default function Home() {
                 <div className="close-popup" onClick={() => setIsPopupOpen(false)}>OK</div>
               </div>
           </div>
+
           <div className="wrapper">
   
             {/* <!-- home section --> */}
@@ -363,23 +358,22 @@ export default function Home() {
                 <p>@ Developed 2024 by Daniel Ehrlich</p>
             </div>
           </div>
-  
-          <div className={`shoping-cart-container ${isCartVisible ? 'show-menu-container' : ''}`} onClick={() => setIsCartVisible(false)}></div>
-          <div className={`shoping-cart ${isCartVisible ? 'show-shoping-cart' : ''}`}>
-              <div className="cart-title-wrapper">
-                <div className="cart-title">{totalPrice >  0 ? '' : 'No'} Items in cart</div>
-                <div className={`tooltip ${totalPrice > 0 ? 'display-tooltip' : ''}`}>
-                  <span id="tooltip-text">Clear Cart</span>
-                  <span className="clean-all-cart-button" onClick={cleanCart}>X</span>
-                </div>
-              </div>
-              <ul className={`shoping-cart-items ${cartItemCount > 5 ? 'cart-overflow' : ''}`}>{shopingCartItems || ''}</ul>
-              <div className="total-price">
-                  <div className="total-price-title">Total Price:</div>
-                  <div className="total-price-score">{totalPriceScore || 0}</div>
-              </div>
-              <div className="cta" onClick={() => setIsModalOpen(true)}>Order Now</div>
-          </div>
+        
+          {/* <!--  shoping cart section --> */}
+            <div className={`shoping-cart-container
+                ${isCartVisible ? 'show-menu-container' : ''}`}
+                onClick={() => setIsCartVisible(false)}
+            />
+
+            <ShopingCart
+                isCartVisible={isCartVisible}
+                totalPrice={totalPrice}
+                cleanCart={cleanCart}
+                cartItemCount={cartItemCount}
+                shopingCartItems={shopingCartItems}
+                totalPriceScore={totalPriceScore}
+                setIsModalOpen={setIsModalOpen}
+            />
         </main>
         {isModalOpen
             ? <div className="order-now-modal">
