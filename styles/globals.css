@@ -509,7 +509,7 @@ section {
 }
 .about-img img {
     padding-top: 65px;
-    height: auto;
+    /* height: auto; */
     width: 100%;
 }
 .about-text {
@@ -1305,9 +1305,9 @@ h4 {
     text-align: center;
   }
   .about-img img {
-    height: auto;
+    /* height: auto; */
     width: 100%;
-    min-height: 100%;
+    /* min-height: 100%; */
     padding: 0;
   }
   .c-mainbox {
@@ -1376,12 +1376,17 @@ h4 {
     font-size: 1rem;
     gap: 1.5rem;
     padding: 0 auto;
+    flex-grow: 1;
   }
   .home-text > .btn {
     bottom: -2.5rem;
   }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
+  }
+  .main-text > p,
+  .about-text > p {
+    font-size: 1.25rem;
   }
   .c-mainbox {
     width: 100%;
