@@ -1334,8 +1334,8 @@ h4 {
 }
 
 @media (max-width: 680px) {
-  h1 {
-    font-size: 2rem;
+  .home-text h1 {
+    font-size: 2.75rem;
   }
   .home-text p {
     font-size: 1.25rem;
@@ -1391,7 +1391,7 @@ h4 {
     color: var(--main-color);
   }
   .about-img img {
-    height: calc(350px - 2px);
+    max-height: calc(350px - 2px);
   }
 }
 @media (max-width: 412px) {
