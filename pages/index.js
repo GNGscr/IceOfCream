@@ -22,6 +22,7 @@ import starIconRating from './public/images/star-icon-rating.png';
 import chocolataBall from './public/images/chocolate_ice_cream_scoop.png';
 import Menu from "./components/Menu";
 import Contact from "./components/Contact";
+import Header from "./components/Header";
 
 
 export default function Home() {
@@ -233,31 +234,14 @@ export default function Home() {
         </Head>
         
         <main>
-          {/* header section */}
-          <header className={`${showNavBg === true ? "show-nav-bg" : ''}`}>
             
-            <a href="#" className="logo">
-              <Image className="logo-image" src={logo} alt="logo" />
-            </a>
-            <div className={`shoping-cart-container ${isNavMenuVisible ? 'show-menu-container' : ''}`}></div>
-            <ul className={`navbar ${isNavMenuVisible ? 'show-menu-navbar' : ''}`}>
-                <li><a onClick={hideNavbarOnClickSmallMedia} href="#home">Home</a></li>
-                <li><a onClick={hideNavbarOnClickSmallMedia} href="#about">About</a></li>
-                <li><a onClick={hideNavbarOnClickSmallMedia} href="#menu">Menu</a></li>
-                <li><a onClick={hideNavbarOnClickSmallMedia} href="#contact">Contact</a></li>
-            </ul>
-  
-            <div className="h-icons">
-               <Image onClick={toggleCart} src={shoppingCartIcon} alt="shopping cart" />
-               <div className={`cart-status ${isCartStatusVisible ? 'show-cart-status' : ''}
-                  ${resizeCartStatus ? 'resize-cart-status' : ''}`}>
-                    {falvorCount}
-               </div>
-                <div onClick={toggleMenu} className="hamburger">
-                    <Image id="hamburger" src={hamburgerIcon} alt="hamburger icon" />
-                </div>
-            </div>
-          </header>
+          {/* header section */}
+
+          <Header
+            showNavBg={showNavBg} logo={logo} isNavMenuVisible={isNavMenuVisible} hideNavbarOnClickSmallMedia={hideNavbarOnClickSmallMedia} toggleCart={toggleCart} 
+            shoppingCartIcon={shoppingCartIcon} isCartStatusVisible={isCartStatusVisible} resizeCartStatus={resizeCartStatus} toggleMenu={toggleMenu} hamburgerIcon={hamburgerIcon} falvorCount={falvorCount}
+          />
+
           <div className="popup-wrapper">
               <div className={`popup ${isPopupOpen ? 'show-popup' : ''}`}>
                 {popupText}
