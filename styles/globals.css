@@ -1334,6 +1334,15 @@ h4 {
 }
 
 @media (max-width: 680px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .home-text p {
+    font-size: 1.25rem;
+  }
+  .container-box {
+    gap: 1.5rem;
+  }
   span {
     font-size: 3rem;
   }
@@ -1353,7 +1362,15 @@ h4 {
     max-height: 40px;
   }
   #hamburger {
-    scale: 1.85;
+    scale: 1;
+  }
+  .add-to-cart {
+    font-size: 1.25rem;
+    color: var(--orange-flavour);
+  }
+  .row h4 {
+    width: fit-content;
+    color: var(--main-color)
   }
 }
 @media (max-width: 412px) {
