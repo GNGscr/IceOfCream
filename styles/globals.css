@@ -1366,7 +1366,7 @@ h4 {
 @media (max-width: 680px) {
   
   .cart-title-wrapper {
-    width: 100vw;
+    width: 57.5vw;
   }
   .shoping-cart-items {
     flex-direction: column;
@@ -1376,7 +1376,13 @@ h4 {
     width: 265px;
   }
   .show-shoping-cart {
-    right: 0;
+    right: 0.75rem;
+  }
+  .cart-item {
+    row-gap: 2rem;
+  }
+  .cart-content {
+    padding: 0.5rem 0;
   }
   .logo-image {
     top: 0.25rem;
