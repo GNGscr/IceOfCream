@@ -1396,7 +1396,8 @@ h4 {
     color: var(--main-color);
   }
   .about-img img {
-    max-height: calc(350px - 2px);
+    max-height: 85vw;
+    aspect-ratio: 4/3;
   }
 }
 @media (max-width: 412px) {
