@@ -1377,6 +1377,15 @@ h4 {
     gap: 1.5rem;
     padding: 0 auto;
   }
+  .home-text > .btn {
+    bottom: 2rem;
+  }
+  .container-box {
+    grid-template-columns: repeat(auto-fit, minmax(325px , auto));
+  }
+  .c-mainbox {
+    width: 100%;
+  }
 }
 @media (max-width: 412px) {
     
