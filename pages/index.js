@@ -20,6 +20,7 @@ import chocolateIceCreameCircle from './public/images/chocolate-ice-cream-circle
 import shoppingCartOrange from './public/images/shopping-cart-orange.svg';
 import starIconRating from './public/images/star-icon-rating.png';
 import chocolataBall from './public/images/chocolate_ice_cream_scoop.png';
+import Menu from "./components/Menu";
 
 
 export default function Home() {
@@ -351,7 +352,7 @@ export default function Home() {
   
             {/* <!-- menu section --> */}
 
-            <section className="menu" id="menu">
+            {/* <section className="menu" id="menu">
               <div className="main-text">
                 <div className="main-text-header-wrapper">
                   <h2 className={`text ${typingText ? 'type-text' : ''}`}>Our Popular Flavors</h2>
@@ -395,7 +396,17 @@ export default function Home() {
                       )
                   }) || ''}
               </div>
-          </section>
+          </section> */}
+          <Menu
+            data={data}
+            typingText={typingText}
+            chocolataBall={chocolataBall}
+            starIconRating={starIconRating}
+            isSlidingCartVisible={isSlidingCartVisible}
+            shoppingCartOrange={shoppingCartOrange}
+            cartId={cartId}
+            addToCart={addToCart}
+          />
   
             <a href="#home">
                 <div
