@@ -1384,8 +1384,8 @@ h4 {
   }
   .shoping-cart {
     height: 92.5vh;
-    /* width: 265px; */
-    width: 80vw;
+    width: 275px;
+    /* width: 80vw; */
   }
   .show-shoping-cart {
     right: 0rem;
