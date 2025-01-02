@@ -1335,7 +1335,7 @@ h4 {
 
 @media (max-width: 680px) {
   .home-text h1 {
-    font-size: 2.75rem;
+    font-size: 2.85rem;
   }
   .home-text p {
     font-size: 1.25rem;
@@ -1385,7 +1385,9 @@ h4 {
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
   }
-  .main-text > p,
+  .main-text > p {
+    font-size: 1.45rem;
+  }
   .about-text > p {
     font-size: 1.25rem;
   }
@@ -1393,14 +1395,14 @@ h4 {
     width: 100%;
   }
   .container-text > p {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
     color: var(--main-color);
   }
   .about {
-    margin-top: 3rem;
+    margin-top: 0rem;
   }
   .about-img img {
-    max-height: 85vw;
+    max-height: 90vw;
     aspect-ratio: auto;
   }
 }
