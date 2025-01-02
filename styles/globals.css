@@ -1372,7 +1372,9 @@ h4 {
     scale: 1.5;
   }
   .navbar {
-    height: 91vh;
+    /* height: 91vh; */
+    padding: 10vh 0;
+    height: 80vh;
     justify-content: space-evenly;
   }
   
@@ -1431,7 +1433,7 @@ h4 {
     scale: 1;
   }
   .add-to-cart {
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: var(--orange-flavour);
   }
   .row h4 {
