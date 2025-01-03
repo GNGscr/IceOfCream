@@ -33,7 +33,6 @@ export default function Home() {
   const [ goToTopBtn, setGoToTopBtn ] = useState(false);
   const [ typingText, setTypingText ] = useState(false);
   const [ isPopupOpen, setIsPopupOpen ] = useState(false);
-  const [ buttonDistanceFromFooter, setButtonDistanceFromFooter ] = useState(false);
   const [ falvorCount, setFalvorCount ] = useState(0);
   const [ cartId, setCartId ] = useState(0);
   const [ totalPrice, setTotalPrice ] = useState(0);
