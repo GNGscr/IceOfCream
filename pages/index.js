@@ -1,7 +1,7 @@
 'use client';
 import Head from "next/head";
 // import Lenis from 'lenis';
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import data from './public/data/data.json';
 import logo from './public/images/cream-from-ice.svg';
@@ -21,8 +21,6 @@ import Ingredients from "./components/Ingredients";
 
 
 export default function Home() {
-
-  const myRef = useRef(null);
 
   const [ showNavBg, setShowNavBg ] = useState(false);
   const [ isNavMenuVisible, setIsNavMenuVisible ] = useState(false);
