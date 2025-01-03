@@ -45,13 +45,9 @@ export default function Home() {
   const [ cart, setCart ] = useState([]);
   const [ count, setCount ] = useState(0);
   const [ arrItemIds, setArrItemIds ] = useState([]);
-  const [ scrollHandler, setScrollHandler ] = useState();
-  const [ handleScroll, setHandleScroll ] = useState();
   const [ totalPriceScore, setTotalPriceScore ] = useState(0);
   const [ shopingCartItems, setShopingCartItems ] = useState('');
-  const [ cartStatus, setCartStatus ] = useState('');
   const [ cartStatusCount, setCartStatusCount ] = useState('');
-  const [ cartTitle, setCartTitle ] = useState('');
   const [ isModalOpen, setIsModalOpen ] = useState(false);
 
   // Lenis
