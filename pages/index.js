@@ -18,6 +18,7 @@ import Contact from "./components/Contact";
 import Header from "./components/Header";
 import ShopingCart from "./components/ShopingCart";
 import Ingredients from "./components/Ingredients";
+import CreatedBy from "./components/CreatedBy";
 
 
 export default function Home() {
@@ -147,25 +148,25 @@ export default function Home() {
     setTotalPrice(0);
     setCount(0);
     setShopingCartItems(cart.map((item, index) => {        
-    setCount(count + 1);
-    setTotalPrice(item.price * item.quantity);
-    return (
-        <li key={index} className="cart-item">
-        <div className="cart-content">
-            <h4>{item.name}</h4>
-            <div className="cart-item-buttons"> 
-            <button className="button left"
-              onClick={() => updateQuantity(item.id, -1)}><Image src={arrowIcon} alt="arrow icon left" /></button>
-            <div className="quantity">{item.quantity}</div>
-            <button className="button right"
-              onClick={() => updateQuantity(item.id, 1)}><Image src={arrowIcon} alt="arrow icon right" /></button>
-            </div>
-            <button className="remove-button"
-              onClick={() => removeFromCart(item.id)}>X</button>
-            <p className="price">${item.price}</p>
-        </div>
-        </li>
-    )
+      setCount(count + 1);
+      setTotalPrice(item.price * item.quantity);
+      return (
+          <li key={index} className="cart-item">
+          <div className="cart-content">
+              <h4>{item.name}</h4>
+              <div className="cart-item-buttons"> 
+              <button className="button left"
+                onClick={() => updateQuantity(item.id, -1)}><Image src={arrowIcon} alt="arrow icon left" /></button>
+              <div className="quantity">{item.quantity}</div>
+              <button className="button right"
+                onClick={() => updateQuantity(item.id, 1)}><Image src={arrowIcon} alt="arrow icon right" /></button>
+              </div>
+              <button className="remove-button"
+                onClick={() => removeFromCart(item.id)}>X</button>
+              <p className="price">${item.price}</p>
+          </div>
+          </li>
+      )
     }));
     const total = cart.reduce((sum, item) => 
       sum + item.price * item.quantity, 0);
@@ -292,6 +293,7 @@ export default function Home() {
             <Contact />
   
             <div className="last-text">
+                <CreatedBy />
                 <p>@ Developed 2024 by Daniel Ehrlich</p>
             </div>
             
@@ -315,6 +317,7 @@ export default function Home() {
                 totalPriceScore={totalPriceScore}
                 setIsModalOpen={setIsModalOpen}
             />
+
         </main>
         {isModalOpen
             ? <div className="order-now-modal">
@@ -329,7 +332,10 @@ export default function Home() {
                 Message
             </div>
             
-            <div className="back-to-site-btn" onClick={() => setIsModalOpen(false)}>Go back to site to play some more..</div>
+            <div className="back-to-site-btn"
+              onClick={() => setIsModalOpen(false)}>
+                Go back to site to play some more..
+            </div>
         </div>
             : ''}
       </>

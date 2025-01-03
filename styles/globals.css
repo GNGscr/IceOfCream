@@ -1174,6 +1174,24 @@ h4 {
   cursor: pointer;
 }
 
+.created-by {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0;
+  justify-content: flex-start;
+  max-height: 0.5rem;
+}
+#created-by-anker {
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+.created-by-de {
+  position: relative;
+  top: 0.75rem;
+}
+
 @media (max-width: 1690px) {
   section {
     padding: 11px 4%;
@@ -1499,7 +1517,12 @@ h4 {
   }
   .back-to-site-btn {
     margin-top: 5rem;
-    /* font-size: 0.95rem; */
+    font-size: 1rem;
+  }
+  .last-text {
+    text-align: left;
+  }
+  .debrand-logo > span {
     font-size: 1rem;
   }
 }
