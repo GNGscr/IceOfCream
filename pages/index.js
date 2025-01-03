@@ -9,13 +9,6 @@ import arrowIcon from './public/images/arrow-icon.svg';
 import shoppingCartIcon from './public/images/shopping-cart.svg';
 import hamburgerIcon from './public/images/hamburger.svg';
 import greenConeIceCream from './public/images/green-cone-ice-cream-on-transparent-background.png';
-import vanillaImg from './public/images/PikPng.com_vanilla-png_1412043.png';
-import chocolateImg from './public/images/PikPng.com_chocolate-png_534590.png';
-import coconutImg from './public/images/PikPng.com_coconut-png_533200.png';
-import pistachiosImg from './public/images/Pistachio-Nut-Transparent-PNG.png';
-import sideViewWomen from './public/images/side-view-smiley-women-eating-ice-cream.jpg';
-import beautifulWoman from './public/images/beautiful-young-women-having-fun-with-ice-cream-park.jpg';
-import womenEatIceCream from './public/images/women-eating-ice-cream-near-sea.jpg';
 import chocolateIceCreameCircle from './public/images/chocolate-ice-cream-circle.png';
 import shoppingCartOrange from './public/images/shopping-cart-orange.svg';
 import starIconRating from './public/images/star-icon-rating.png';
@@ -168,17 +161,21 @@ export default function Home() {
         <div className="cart-content">
             <h4>{item.name}</h4>
             <div className="cart-item-buttons"> 
-            <button className="button left" onClick={() => updateQuantity(item.id, -1)}><Image src={arrowIcon} alt="arrow icon left" /></button>
+            <button className="button left"
+              onClick={() => updateQuantity(item.id, -1)}><Image src={arrowIcon} alt="arrow icon left" /></button>
             <div className="quantity">{item.quantity}</div>
-            <button className="button right" onClick={() => updateQuantity(item.id, 1)}><Image src={arrowIcon} alt="arrow icon right" /></button>
+            <button className="button right"
+              onClick={() => updateQuantity(item.id, 1)}><Image src={arrowIcon} alt="arrow icon right" /></button>
             </div>
-            <button className="remove-button" onClick={() => removeFromCart(item.id)}>X</button>
+            <button className="remove-button"
+              onClick={() => removeFromCart(item.id)}>X</button>
             <p className="price">${item.price}</p>
         </div>
         </li>
     )
     }));
-    const total = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    const total = cart.reduce((sum, item) => 
+      sum + item.price * item.quantity, 0);
     setTotalPriceScore(`$${total}`);
     setCartStatusCount(count);
     setFalvorCount(cart.length);
@@ -258,63 +255,8 @@ export default function Home() {
                 </div>
             </section>
   
-            {/* <section className="container">
-          
-              <div className="main-text">
-                  <h2>Our Ingredients</h2>
-                  <p>Only the Best for You</p>
-              </div>
-              <div className="container-box">
-  
-                  <div className="c-mainbox">
-                      <div className="container-img">
-                          <Image className="ingredient" src={vanillaImg} alt="box1" />
-                      </div>
-                      <div className="container-text">
-                          <p>Vanilla sticks</p>
-                      </div>
-                  </div>
-                  <div className="c-mainbox">
-                      <div className="container-img">
-                          <Image className="ingredient" src={chocolateImg} alt="box2" />
-                      </div>
-                      <div className="container-text">
-                          <p>Belgian Chocolate</p>
-                      </div>
-                  </div>
-                  <div className="c-mainbox">
-                      <div className="container-img">
-                          <Image className="ingredient" src={coconutImg} alt="box3" />
-                      </div>
-                      <div className="container-text">
-                          <p>Fresh Coconuts</p>
-                      </div>
-                  </div>
-                  <div className="c-mainbox">
-                      <div className="container-img">
-                          <Image className="ingredient" src={pistachiosImg} alt="box4" />
-                      </div>
-                      <div className="container-text">
-                          <p>Ripe Pistachios</p>
-                      </div>
-                  </div>
-  
-              </div>
-  
-              <div className="enjoy-our-vaction">
-                  <div className="vacation-photos-title">The Customers</div>
-                  <div className="slider" style={{"--width": "300px", "--height": "85px", "--quantity": "6"}}>
-                      <div className="list">
-                          <div className="item" style={{"--position": "1"}}><Image src={beautifulWoman} alt="" /></div>
-                          <div className="item" style={{"--position": "2"}}><Image src={womenEatIceCream} alt="" /></div>
-                          <div className="item" style={{"--position": "3"}}><Image src={sideViewWomen} alt="" /></div>
-                          <div className="item" style={{"--position": "4"}}><Image src={womenEatIceCream} alt="" /></div>
-                          <div className="item" style={{"--position": "5"}}><Image src={beautifulWoman} alt="" /></div>
-                          <div className="item" style={{"--position": "6"}}><Image src={sideViewWomen} alt="" /></div>
-                      </div>
-                  </div>
-              </div>
-            </section> */}
+
+            {/* <!-- Ingredients section --> */}
             <Ingredients />
   
             {/* <!-- about section --> */}
