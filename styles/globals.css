@@ -262,6 +262,7 @@ header {
 
 .resize-cart-status {
    animation: resize-status .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   animation-delay: .3s;
 }
 
 @keyframes resize-status {
@@ -888,7 +889,7 @@ input[type="number"] {
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  padding: 2.5px 0;
+  padding: 0.5px 0;
   flex-grow: 1;
 }
 
@@ -1178,7 +1179,7 @@ h4 {
 }
 
 .back-to-site-btn {
-  padding: 1rem 1.5rem;
+  padding: 0.75rem 3.5rem;
   border-radius: 8px;
   width: fit-content;
   font-weight: 600;
@@ -1320,7 +1321,7 @@ h4 {
   }
   .shoping-cart {
     width: calc(265px * 3);
-    height: 85vh;
+    height: 87.5vh;
   }
   .shoping-cart-container {
     height: 100vh;

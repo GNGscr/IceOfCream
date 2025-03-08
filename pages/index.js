@@ -1,6 +1,7 @@
 'use client';
 import Head from "next/head";
 // import Lenis from 'lenis';
+import Modal from "./components/Modal";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import data from './public/data/data.json';
@@ -200,7 +201,6 @@ export default function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cart]);
 
-
   return (
       <>
         <Head>
@@ -321,25 +321,9 @@ export default function Home() {
             />
 
         </main>
-        {isModalOpen
-            ? <div className="order-now-modal">
-            <div className="explaination">
-                This is a website for demonstration purpuses Only
-            </div>
-            
-            <div className="pitch">
-                If you would like to use my services go to this site
-                Or send Email
-                Phone
-                Message
-            </div>
-            
-            <div className="back-to-site-btn"
-              onClick={() => setIsModalOpen(false)}>
-                Go back to site to play some more..
-            </div>
-        </div>
-            : ''}
+        {Modal && isModalOpen
+          ? <Modal setIsModalOpen={setIsModalOpen} />  
+          : ''}
       </>
     );
 }
