@@ -11,6 +11,7 @@ export default function Header({ showNavBg, logo, isNavMenuVisible, hideNavbarOn
         <ul className={`navbar ${isNavMenuVisible ? 'show-menu-navbar' : ''}`}>
             <li><a onClick={hideNavbarOnClickSmallMedia} href="#home">Home</a></li>
             <li><a onClick={hideNavbarOnClickSmallMedia} href="#about">About</a></li>
+            <li><a onClick={hideNavbarOnClickSmallMedia} href="#blog">Blog</a></li>
             <li><a onClick={hideNavbarOnClickSmallMedia} href="#menu">Menu</a></li>
             <li><a onClick={hideNavbarOnClickSmallMedia} href="#contact">Contact</a></li>
         </ul>

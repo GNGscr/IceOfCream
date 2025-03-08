@@ -65,7 +65,7 @@ export default function Home() {
         }
     });
     
-    const sectionToIntersect = ["#home", "#about", "#menu", "#contact"];
+    const sectionToIntersect = ["#home", "#about", "#blog", "#menu", "#contact"];
     const navbarList = [...document.querySelectorAll("ul.navbar > li > a")];
     setCart(cart);
     
@@ -250,11 +250,13 @@ export default function Home() {
             </section>
   
 
-            {/* <!-- Ingredients section --> */}
-            <Ingredients />
-  
             {/* <!-- about section --> */}
-            <section className="about" id="about">
+            <section id="about">
+              <Ingredients />
+            </section>
+  
+            {/* <!-- us section --> */}
+            <section className="about" id="blog">
                 <div className="about-img">
                     <Image src={chocolateIceCreameCircle} alt="about-img" />
                 </div>
@@ -293,8 +295,8 @@ export default function Home() {
             <Contact />
   
             <div className="last-text">
+                <p style={{ fontSize: "0.95rem" }}>@ Developed 2024 by Daniel Ehrlich</p>
                 <CreatedBy />
-                <p>@ Developed 2024 by Daniel Ehrlich</p>
             </div>
             
           </div>
