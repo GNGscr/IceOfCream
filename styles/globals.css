@@ -440,7 +440,7 @@ section {
 
 .container-box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px , auto));
+  grid-template-columns: repeat(auto-fit, minmax(275px , auto));
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -817,7 +817,7 @@ input[type="number"] {
 .shoping-cart {
   display: flex;
   position: fixed;
-  top: 55px;
+  top: 67..container-box5px;
   right: -100%;
   width: 265px;
   height: 85vh;

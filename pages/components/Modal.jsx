@@ -4,12 +4,9 @@ export default function Modal({ setIsModalOpen }) {
 
     const handleClick = (e, href, heading, subheading) => {
         e.preventDefault();
-        if (heading === "EMAIL") {
-          handleEmail(subheading);
-        } else if (heading === "PHONE") {
+        if (heading === "PHONE") {
           const phoneNumber = href.replace(/[^0-9+]/g, '');
           const telLink = `tel:${phoneNumber}`;
-          const facetimeLink = `facetime:${phoneNumber}`;
           window.location.href = telLink;
           window.open(telLink, '_blank');
         } else if (heading === "WHATSAPP") {
@@ -25,14 +22,6 @@ export default function Modal({ setIsModalOpen }) {
         const gmailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${subject}&body=${body}`;
         window.open(gmailLink, '_blank');
     };
-
-    // const handlePhone = (phone="(+972)523650974") => {
-    //     const phoneNumber = phone.replace(/[^0-9+]/g, '');
-    //     const telLink = `tel:${phoneNumber}`;
-    //     // const facetimeLink = `facetime:${phoneNumber}`;
-    //     window.location.href = telLink;
-    //     window.open(telLink, '_blank');
-    // };
     
     if (!setIsModalOpen) return;
 
@@ -50,9 +39,8 @@ export default function Modal({ setIsModalOpen }) {
                 <span style={{ padding: "0 0.5rem", color: "orange" }}>this site</span>
               </a>
             </div>
-            <div style={{ margin: "2.85rem 0", fontSize: "1.4rem" }}>
-              Or send
-            </div>
+            <div style={{ margin: "2.85rem 0", fontSize: "1.4rem" }}>Or send</div>
+
             <div className="flex align-center justify-center gap-24 py-2">
 
               {/* EMAIL */}
@@ -73,10 +61,10 @@ export default function Modal({ setIsModalOpen }) {
 
               {/* PHONE */}
               <motion.a
+                href="(+972)523650974"
                 initial={{ y: 0, skew: 0 }}
                 whileHover={{ y: "-2.5%", skew: "-1.05deg" }}
                 transition={{ duration: 0.075, delay: 0, type: "tween" }}
-                href="(+972)523650974"
                 onClick={e => handleClick(e, "(+972)523650974", "PHONE", "(+972)523650974")}>
                 <span>
                   <svg height="75" width="75" viewBox="0 0 201 201" xmlns="http://www.w3.org/2000/svg">
@@ -94,10 +82,10 @@ export default function Modal({ setIsModalOpen }) {
 
               {/* WHATSAPP */}
               <motion.a 
+                href="(+972)523650974"
                 initial={{ y: 0, skew: 0 }}
                 whileHover={{ y: "-3.5%", skew: "-1.65deg" }}
                 transition={{ duration: 0.085, delay: 0, type: "tween" }}
-                href="(+972)523650974"
                 onClick={e => handleClick(e, "(+972)523650974", "WHATSAPP", "(+972)523650974")}>
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 187" width="75" height="75">
@@ -113,8 +101,7 @@ export default function Modal({ setIsModalOpen }) {
 
           <div className="back-to-site-btn"
             onClick={() => setIsModalOpen(false)}>
-            Go back to site ..
-            {/* to play some more.. */}
+                Go back to site ..
           </div>
         </div>
     )
