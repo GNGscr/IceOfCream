@@ -353,6 +353,7 @@ section {
 }
 .home-text > h1 > span {
   color: var(--orange-flavour);
+  font-size: 3.5rem;
 }
 
 .home-text p {
@@ -440,7 +441,7 @@ section {
 
 .container-box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px , auto));
+  grid-template-columns: repeat(auto-fit, minmax(265px , auto));
   align-items: center;
   justify-content: space-between;
   position: relative;
@@ -1195,7 +1196,6 @@ h4 {
   width: 0;
   justify-content: flex-start;
   max-height: 0.5rem;
-  /* width: fit-content; */
 }
 #created-by-anker {
   display: flex;
@@ -1204,7 +1204,6 @@ h4 {
 }
 .created-by-de {
   position: relative;
-  /* top: 0.75rem; */
 }
 
 @media (max-width: 1690px) {
@@ -1502,7 +1501,7 @@ h4 {
     font-size: 1.25rem;
   }
   .c-mainbox {
-    width: 100%;
+    width: 90%;
   }
   .container-text > p {
     font-size: 1.25rem;

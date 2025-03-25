@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 
 export default function Modal({ setIsModalOpen }) {
 
-    const handleClick = (e, href, heading, subheading) => {
+    const handleClick = (e, href, heading) => {
         e.preventDefault();
         if (heading === "PHONE") {
           const phoneNumber = href.replace(/[^0-9+]/g, '');
           const telLink = `tel:${phoneNumber}`;
           window.location.href = telLink;
-          window.open(telLink, '_blank');
+          window.open(telLink, '_system');
         } else if (heading === "WHATSAPP") {
           window.open(`https://wa.me/${href.replace(/[^0-9]/g, '')}`, '_blank');
         } else if (heading === "LINKEDIN") {
@@ -34,7 +34,7 @@ export default function Modal({ setIsModalOpen }) {
           <div className="pitch">
             <div>
               If you are interested in using my services
-              go to
+              <span>go to</span>
               <a href="https://debrand-design.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <span style={{ padding: "0 0.5rem", color: "orange" }}>this site</span>
               </a>
@@ -65,7 +65,7 @@ export default function Modal({ setIsModalOpen }) {
                 initial={{ y: 0, skew: 0 }}
                 whileHover={{ y: "-2.5%", skew: "-1.05deg" }}
                 transition={{ duration: 0.075, delay: 0, type: "tween" }}
-                onClick={e => handleClick(e, "(+972)523650974", "PHONE", "(+972)523650974")}>
+                onClick={e => handleClick(e, "(+972)523650974", "PHONE")}>
                 <span>
                   <svg height="75" width="75" viewBox="0 0 201 201" xmlns="http://www.w3.org/2000/svg">
                     <g id="Layer_1">
@@ -86,7 +86,7 @@ export default function Modal({ setIsModalOpen }) {
                 initial={{ y: 0, skew: 0 }}
                 whileHover={{ y: "-3.5%", skew: "-1.65deg" }}
                 transition={{ duration: 0.085, delay: 0, type: "tween" }}
-                onClick={e => handleClick(e, "(+972)523650974", "WHATSAPP", "(+972)523650974")}>
+                onClick={e => handleClick(e, "(+972)523650974", "WHATSAPP")}>
                 <span>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187 187" width="75" height="75">
                     <rect fill="#009846" width="187" height="187" rx="18" ry="18" />
