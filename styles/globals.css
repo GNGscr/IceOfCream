@@ -672,8 +672,7 @@ input[type="number"] {
   padding: 50px 15% 40px;
   margin-top: 90px;
   border-top: 1px solid rgb(206 206 206);
-  margin: 0rem 3.5rem;
-  margin-top: 5rem;
+  margin: 5rem 7rem 0;
 }
 
 .main-contact {
@@ -681,8 +680,8 @@ input[type="number"] {
   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   justify-content: center;
   /* gap: 4rem; */
-  /* gap: 8rem; */
-  gap: 10rem;
+  /* gap: 10rem; */
+  gap: 8rem;
 }
 
 .contact-content h4 {
