@@ -1,6 +1,5 @@
 'use client';
 import Head from "next/head";
-// import Lenis from 'lenis';
 import Modal from "./components/Modal";
 import { useEffect, useState } from "react";
 import Image from "next/image";
@@ -48,14 +47,6 @@ export default function Home() {
   const [ shopingCartItems, setShopingCartItems ] = useState('');
   const [ cartStatusCount, setCartStatusCount ] = useState('');
   const [ isModalOpen, setIsModalOpen ] = useState(false);
-
-  // Lenis
-  // const lenis = new Lenis();
-  //     function raf(time) {
-  //         lenis.raf(time);
-  //         requestAnimationFrame(raf);
-  //     }
-  //     requestAnimationFrame(raf);
 
   useEffect(() => {
     const handleScroll = window.addEventListener('scroll', () => {
