@@ -22,8 +22,8 @@ You can check out [IceOfCream repository](https://github.com/GNGscr/IceOfCream)
 
 ## ✨ Features
 
-- Grid view of active cities
-- Search
+- Animations
+- Cart Logic
 
 ---
 
@@ -31,8 +31,6 @@ You can check out [IceOfCream repository](https://github.com/GNGscr/IceOfCream)
 
 - React
 - Next.js
-- TypeScript
-- React Router v6
 - CSS (vanilla)
 
 ---
