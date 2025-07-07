@@ -1569,6 +1569,7 @@ h4 {
   .home-text h1 {
     font-size: 2.75rem;
     line-height: 3.75rem;
+    margin-top: 0.5rem;
     margin-bottom: 4rem;
     
     text-transform: lowercase;
@@ -1578,7 +1579,7 @@ h4 {
   }
   .home-text p {
     font-size: 1.25rem;
-    line-height: 42px;
+    line-height: 38px;
   }
   .container-box {
     gap: 1.5rem;
