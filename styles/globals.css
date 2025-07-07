@@ -1576,6 +1576,12 @@ h4 {
   .container-box {
     gap: 1.5rem;
   }
+  .green-cone-ice-cream {
+    display: none;
+  }
+  .home-img {
+    animation: slide-main-img 1.2s ease forwards;
+  }
 
   @keyframes slide-main-img {
     from {
