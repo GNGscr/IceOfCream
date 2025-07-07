@@ -1583,6 +1583,9 @@ h4 {
     height: 0;
     animation: none;
   }
+  section {
+    scroll-snap-align: none;
+  }
 }
 @media (max-width: 412px) {
     
