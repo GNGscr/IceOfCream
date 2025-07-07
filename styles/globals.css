@@ -1490,6 +1490,10 @@ h4 {
     font-size: 0.5rem;
     padding: 0px 12.5rem !important;
     height: 100vh;
+    gap: 1.5rem;
+  }
+  .or-send {
+    margin: 2.5rem 0 !important;
   }
   .pitch,
   .explaination,
@@ -1498,6 +1502,7 @@ h4 {
   }
   .explaination {
     font-size: 1.85rem;
+    margin-top: -5rem;
   }
   .pitch {
     font-size: 1.5rem;

@@ -39,7 +39,7 @@ export default function Modal({ setIsModalOpen }) {
                 <span className="this-site" style={{ padding: "0 0.5rem", color: "orange" }}>this site</span>
               </a>
             </div>
-            <div style={{ margin: "2.85rem 0", fontSize: "1.4rem" }}>Or send</div>
+            <div className="or-send" style={{ margin: "2.85rem 0", fontSize: "1.4rem" }}>Or send</div>
 
             <div className="icons flex align-center justify-center gap-24 py-2">
 
