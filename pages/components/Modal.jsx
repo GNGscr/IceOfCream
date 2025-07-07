@@ -34,7 +34,7 @@ export default function Modal({ setIsModalOpen }) {
           <div className="pitch">
             <div>
               If you are interested in using my services
-              <span>go to</span>
+              <span style={{ marginLeft: '5px' }}>go to</span>
               <a href="https://debrand-design.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <span style={{ padding: "0 0.5rem", color: "orange" }}>this site</span>
               </a>
