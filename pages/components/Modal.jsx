@@ -32,7 +32,7 @@ export default function Modal({ setIsModalOpen }) {
           </div>
 
           <div className="pitch">
-            <div>
+            <div className="interest">
               If you are interested in using my services
               <span style={{ marginLeft: '5px' }}>go to</span>
               <a href="https://debrand-design.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -41,7 +41,7 @@ export default function Modal({ setIsModalOpen }) {
             </div>
             <div style={{ margin: "2.85rem 0", fontSize: "1.4rem" }}>Or send</div>
 
-            <div className="flex align-center justify-center gap-24 py-2">
+            <div className="icons flex align-center justify-center gap-24 py-2">
 
               {/* EMAIL */}
 
