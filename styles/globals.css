@@ -567,9 +567,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   gap: 2rem;
   align-items: center;
-  /* margin-top: 4rem; */
   margin-top: 2rem;
-  cursor: pointer;
 }
 .row {
   padding: 5px;
@@ -589,8 +587,10 @@ section {
 .row p {
   color: var(--second-color);
   font-size: 15px;
-  line-height: 30px;
+  line-height: 25px;
   margin-bottom: 10px;
+  min-height: 60px;
+  display: flex;
 }
 
 .menu {
@@ -942,6 +942,7 @@ input[type="number"] {
   margin-right: 5px;
   transition: all .4s ease;
   z-index: 5;
+  cursor: pointer;
 }
 
 .add-to-cart:hover {
