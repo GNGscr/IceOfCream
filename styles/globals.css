@@ -1379,7 +1379,7 @@ h4 {
     scale: 1.5;
   }
   .main-text {
-    margin-top: 0rem;
+    margin-top: -2rem;
   }
   .navbar {
     width: 100%;
@@ -1460,7 +1460,7 @@ h4 {
     bottom: -5rem;
   }
   .show-go-top-btn {
-    bottom: 3rem;
+    bottom: 4rem;
   }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
