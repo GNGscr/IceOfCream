@@ -28,12 +28,6 @@
   --header-font-size: 24px;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-} */
 
 body {
   color: var(--foreground);
@@ -61,20 +55,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* .test-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  perspective: 1000px;
-}
-
-.card-test {
-  height: 150px;
-  width: 150px;
-  background-color: blue;
-  transform: rotateY(40deg) translateX(-50px);
-} */
-
 :root {
   --text-color: #302e29;
   --main-color: darkmagenta;
@@ -93,10 +73,8 @@ body {
   --h2-font: 2.6rem;
   --p-font: 1.1rem;
   --main-transition: all .40s ease;
-  /* animation-timeline: view(); */
-  /* precant of screen in view; */
-  /* animation-range: entry 40% cover 40%; */
 }
+
 /* 
 Chocolate Brown: #3E2723 – This rich, deep brown resembles chocolate, which is a popular ice cream flavor, and offers a great contrast.
 
@@ -109,8 +87,8 @@ Vanilla Beige: #F5F5DC – A warm beige can provide a subtle, complementary cont
 Sky Blue: #03A9F4 – A bright, cheerful blue that gives a fresh, cool vibe, reminiscent of classic ice cream parlors. */
 
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  /* background-color: var(--bg-color);
+  color: var(--text-color); */
   overflow-x: hidden;
 }
 
@@ -136,7 +114,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background: transparent; */
   background-color: var(--bg-color);
   padding: 23px 15%;
   transition: all .40s ease;
@@ -449,7 +426,6 @@ section {
   justify-content: space-between;
   position: relative;
   margin-top: 2.5rem;
-  /* gap: 1.4rem; */
   animation: appear-in-view .7s ease;
   animation-timeline: view();
   /* precant of screen in view; */
@@ -524,7 +500,6 @@ section {
 }
 .about-img img {
     padding-top: 65px;
-    /* height: auto; */
     width: 100%;
 }
 .about-text {
@@ -576,10 +551,6 @@ section {
   width: 60%;
   height: auto;
   border-radius: 10px;
-}
-.row:nth-child(2) > img {
-  height: 170px;
-  width: 54%;
 }
 .row {
   transition: .7s ease-in-out;
@@ -664,10 +635,6 @@ input[type="number"] {
   opacity: 1;
 }
 
-/* #distance-from-footer {
-  bottom: 26rem;
-} */
-
 .contact {
   padding: 50px 15% 40px;
   margin-top: 90px;
@@ -679,8 +646,6 @@ input[type="number"] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   justify-content: center;
-  /* gap: 4rem; */
-  /* gap: 10rem; */
   gap: 8rem;
 }
 
@@ -1080,7 +1045,6 @@ h4 {
 .slider .list {
   display: flex;
   width: 100%;
-  /* min-width: calc(var(--width) * var(--quantity)); */
   min-width: calc(calc(var(--width) + -20px) * var(--quantity));
   position: relative;
 }
@@ -1109,7 +1073,6 @@ h4 {
 
 .slider .item:hover {
   filter: grayscale(0);
-  /* cursor: wait; */
 }
 
 .slider .item {
@@ -1320,7 +1283,6 @@ h4 {
   }
   .cart-title-wrapper {
     width: 26.5vw;
-    /* height: 4rem; */
   }
   .tooltip {
     top: -1.5rem !important;
@@ -1385,9 +1347,7 @@ h4 {
     text-align: center;
   }
   .about-img img {
-    /* height: auto; */
     width: 100%;
-    /* min-height: 100%; */
     padding: 0;
   }
   .c-mainbox {
@@ -1418,12 +1378,11 @@ h4 {
     scale: 1.5;
   }
   .main-text {
-    margin-top: 7.5rem;
+    margin-top: 0rem;
   }
   .navbar {
     width: 100%;
     height: 94vh;
-    /* padding: 10vh 0; */
     justify-content: flex-start;
     row-gap: 1.5rem;
   }
@@ -1439,7 +1398,6 @@ h4 {
   .shoping-cart {
     height: 92.5vh;
     width: 275px;
-    /* width: 80vw; */
   }
   .show-shoping-cart {
     right: 0rem;
@@ -1453,15 +1411,6 @@ h4 {
   .logo-image {
     top: 0.25rem;
     left: 1rem;
-  }
-  .home-text h1 {
-    font-size: 2.85rem;
-  }
-  .home-text p {
-    font-size: 1.25rem;
-  }
-  .container-box {
-    gap: 1.5rem;
   }
   span {
     font-size: 3rem;
@@ -1483,6 +1432,7 @@ h4 {
   }
   #hamburger {
     scale: 1;
+    min-height: 210px;
   }
   .add-to-cart {
     font-size: 1rem;
@@ -1500,7 +1450,7 @@ h4 {
     margin: 0 1rem;
   }
   .home-text > .btn {
-    bottom: -3rem;
+    bottom: -5rem;
   }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
@@ -1512,14 +1462,14 @@ h4 {
     font-size: 1.25rem;
   }
   .c-mainbox {
-    width: 90%;
+    width: 95%;
   }
   .container-text > p {
     font-size: 1.25rem;
     color: var(--main-color);
   }
   .about {
-    margin-top: 0rem;
+    margin: 0rem;
   }
   .about-img img {
     max-height: 90vw;
@@ -1544,8 +1494,48 @@ h4 {
     margin-top: 5rem;
     font-size: 1rem;
   }
+  .menu {
+    margin: 0;
+    margin-top: 7.5rem;
+  }
+  .home {
+    padding: 0 1rem;
+    padding-top: 5rem;
+    grid-template-columns: 1fr;
+  }
+  .home-text {
+    height: fit-content;
+    padding-top: 0;
+  }
+  .about-img {
+    display: none;
+  }
+  .home-text h1 {
+    font-size: 3.25rem;
+  }
+  .home-text p {
+    font-size: 1.5rem;
+  }
+  .main-contact {
+    gap: 7.5rem;
+  }
+  .contact {
+    margin: 5rem 0rem 0;
+  }
+  .about-text h2 {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  .container-box {
+    gap: 1.5rem;
+  }
   .last-text {
     text-align: left;
+    margin: 0;
+  }
+  .debrand-logo {
+    display: flex;
+    align-items: center;
   }
   .debrand-logo > span {
     font-size: 1rem;
@@ -1558,21 +1548,36 @@ h4 {
     }
 }
 
-/* 412px */
 
-/* 1024 NEST HUB */
 
-/* GALAXY FOLD */
-
-/* @media (max-width: 380px) {
-    .wrapper {
-        padding: 0 5%;
-    }
-    .container {
-        margin-top: 25px;
-    }
-    .row {
-        text-align: center;
-    }
-} */
-
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1b1b1b;
+    --foreground: #ededed;
+  }
+  header,
+  .c-mainbox,
+  .navbar a,
+  .main-text p,
+  .main-text-header-wrapper,
+  .row h4,
+  .container-text > p,
+  .cart-status,
+  .contact-content h4,
+  .contact-content li a,
+  .last-text {
+    background-color: #1b1b1b !important;
+    color: #ededed;
+  }
+  .c-mainbox,
+  .add-to-cart {
+    background-color: #242424 !important;
+    color: #ededed;
+  }
+  @media (max-width: 680px) {
+    header {
+      background-color: #242424 !important;
+      color: #ededed;
+    } 
+  }
+}
