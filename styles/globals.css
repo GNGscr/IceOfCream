@@ -1538,10 +1538,9 @@ h4 {
   }
   .home-text p {
     font-size: 1.5rem;
-    /* margin-top: 4rem; */
   }
   .main-contact {
-    gap: 7.5rem;
+    gap: 5rem;
   }
   .contact {
     margin: 5rem 0rem 0;
