@@ -1397,8 +1397,7 @@ h4 {
     flex-direction: column;
   }
   .shoping-cart {
-    /* height: 92.5vh; */
-    height: 81vh;
+    height: 82.5vh;
     width: 275px;
   }
   .show-shoping-cart {
