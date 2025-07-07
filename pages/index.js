@@ -201,14 +201,11 @@ export default function Home() {
     const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
     if (prefersDarkScheme.matches) {
       // User prefers dark mode
-      console.log("Dark mode is preferred.");
       setCartIcon(shoppingCartIconWhite);
       setCurrentHamburgerIcon(hamburgerIconWhite);
       // Apply dark mode styles or logic
     } else {
       // User prefers light mode (or no preference set, defaults to light)
-      console.log("Light mode is preferred.");
-      // Apply light mode styles or logic
       setCartIcon(shoppingCartIcon);
       setCurrentHamburgerIcon(hamburgerIcon);
     }
