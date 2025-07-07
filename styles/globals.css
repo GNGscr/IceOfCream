@@ -1457,7 +1457,7 @@ h4 {
     margin: 0 1rem;
   }
   .home-text > .btn {
-    bottom: -8rem;
+    bottom: -7.5rem;
   }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
@@ -1480,7 +1480,7 @@ h4 {
   }
   .about-img img {
     max-height: 90vw;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: auto;
   }
   .order-now-modal {
     font-size: 0.5rem;
