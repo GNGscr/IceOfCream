@@ -1579,6 +1579,10 @@ h4 {
   .container-box {
     gap: 1.5rem;
   }
+  .home-img {
+    height: 0;
+    animation: none;
+  }
 }
 @media (max-width: 412px) {
     
@@ -1602,7 +1606,6 @@ h4 {
   .main-text p,
   .main-text-header-wrapper,
   .row h4,
-  .container-text > p,
   .cart-status,
   .contact-content h4,
   .contact-content li a,
@@ -1611,6 +1614,7 @@ h4 {
     color: #ededed;
   }
   .c-mainbox,
+  .container-text > p,
   .add-to-cart {
     background-color: #242424 !important;
     color: #ededed;
