@@ -1460,7 +1460,7 @@ h4 {
     bottom: -5rem;
   }
   .show-go-top-btn {
-    bottom: 2rem;
+    bottom: 4rem;
   }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
