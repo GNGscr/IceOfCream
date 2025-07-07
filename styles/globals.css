@@ -127,6 +127,9 @@ header {
 .logo {
   font-size: 20px;
   font-family: fantasy;
+  position: relative;
+  top: 5px;
+  left: 8rem;
 }
 
 .logo-image {
@@ -166,6 +169,8 @@ header {
   border-radius: 5rem;
   gap: 15px;
   position: relative;
+  top: 2.5px;
+  right: 7rem;
 }
 
 .popup-wrapper {
@@ -1414,6 +1419,8 @@ h4 {
     font-family: fantasy;
     text-indent: 3rem;
     padding-top: 10px;
+    top: 0;
+    left: 0rem;
   }
   .logo-image {
     top: 0.25rem;
@@ -1436,6 +1443,8 @@ h4 {
   }
   .h-icons {
     max-height: 40px;
+    top: 0;
+    right: 0;
   }
   #hamburger {
     scale: 1;
