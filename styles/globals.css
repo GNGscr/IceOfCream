@@ -1514,14 +1514,14 @@ h4 {
     display: none;
   }
   .home-img {
-    display: none;
+    height: 0;
   }
   .home-text {
     height: fit-content;
     padding-top: 0;
   }
   .home-text > .btn {
-    bottom: -7rem;
+    bottom: -5rem;
   }
   .home-text h1 {
     font-size: 3.25rem;
