@@ -7,7 +7,9 @@ import data from './public/data/data.json';
 import logo from './public/images/cream-from-ice.svg';
 import arrowIcon from './public/images/arrow-icon.svg';
 import shoppingCartIcon from './public/images/shopping-cart.svg';
+import shoppingCartIconWhite from './public/images/shopping-cart-white.svg';
 import hamburgerIcon from './public/images/hamburger.svg';
+import hamburgerIconWhite from './public/images/hamburger-white.svg';
 import greenConeIceCream from './public/images/green-cone-ice-cream-on-transparent-background.png';
 import chocolateIceCreameCircle from './public/images/chocolate-ice-cream-circle.png';
 import shoppingCartOrange from './public/images/shopping-cart-orange.svg';
@@ -47,6 +49,9 @@ export default function Home() {
   const [ shopingCartItems, setShopingCartItems ] = useState('');
   const [ cartStatusCount, setCartStatusCount ] = useState('');
   const [ isModalOpen, setIsModalOpen ] = useState(false);
+
+  const [cartIcon, setCartIcon] = useState(shoppingCartIcon);
+  const [currentHamburgerIcon, setCurrentHamburgerIcon] = useState(hamburgerIcon);
 
   useEffect(() => {
     const handleScroll = window.addEventListener('scroll', () => {
@@ -192,6 +197,23 @@ export default function Home() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [cart]);
 
+  useEffect(() => {
+    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+    if (prefersDarkScheme.matches) {
+      // User prefers dark mode
+      console.log("Dark mode is preferred.");
+      setCartIcon(shoppingCartIconWhite);
+      setCurrentHamburgerIcon(hamburgerIconWhite);
+      // Apply dark mode styles or logic
+    } else {
+      // User prefers light mode (or no preference set, defaults to light)
+      console.log("Light mode is preferred.");
+      // Apply light mode styles or logic
+      setCartIcon(shoppingCartIcon);
+      setCurrentHamburgerIcon(hamburgerIcon);
+    }
+  }, []);
+
   return (
       <>
         <Head>
@@ -211,11 +233,11 @@ export default function Home() {
             isNavMenuVisible={isNavMenuVisible}
             hideNavbarOnClickSmallMedia={hideNavbarOnClickSmallMedia}
             toggleCart={toggleCart} 
-            shoppingCartIcon={shoppingCartIcon}
+            shoppingCartIcon={cartIcon}
             isCartStatusVisible={isCartStatusVisible}
             resizeCartStatus={resizeCartStatus}
             toggleMenu={toggleMenu}
-            hamburgerIcon={hamburgerIcon}
+            hamburgerIcon={currentHamburgerIcon}
             falvorCount={falvorCount}
           />
 
