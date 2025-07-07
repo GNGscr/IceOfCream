@@ -5,7 +5,8 @@ export default function Header({ showNavBg, logo, isNavMenuVisible, hideNavbarOn
         <header className={`${showNavBg === true ? "show-nav-bg" : ''}`}>
             
         <a href="#" className="logo">
-          <Image className="logo-image" src={logo} alt="logo" />
+          {/* <Image className="logo-image" src={logo} alt="logo" /> */}
+          IceOfCream
         </a>
         <div className={`shoping-cart-container ${isNavMenuVisible ? 'show-menu-container' : ''}`}></div>
         <ul className={`navbar ${isNavMenuVisible ? 'show-menu-navbar' : ''}`}>
