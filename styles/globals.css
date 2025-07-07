@@ -1397,7 +1397,7 @@ h4 {
     flex-direction: column;
   }
   .shoping-cart {
-    height: 82.5vh;
+    height: 95vh;
     width: 275px;
   }
   .show-shoping-cart {
@@ -1603,8 +1603,14 @@ h4 {
     height: 0;
     animation: none;
   }
+  .total-price {
+    bottom: 11.5rem;
+  }
   section {
     scroll-snap-align: center;
+  }
+  .cta {
+    bottom: 8rem;
   }
 }
 @media (max-width: 412px) {
