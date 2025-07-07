@@ -1457,7 +1457,7 @@ h4 {
     margin: 0 1rem;
   }
   .home-text > .btn {
-    bottom: -7.5rem;
+    bottom: -8rem;
   }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
@@ -1480,7 +1480,7 @@ h4 {
   }
   .about-img img {
     max-height: 90vw;
-    aspect-ratio: auto;
+    aspect-ratio: 4 / 3;
   }
   .order-now-modal {
     font-size: 0.5rem;
@@ -1575,23 +1575,6 @@ h4 {
   }
   .container-box {
     gap: 1.5rem;
-  }
-  .green-cone-ice-cream {
-    display: none;
-  }
-  .home-img {
-    animation: slide-main-img 1.2s ease forwards;
-  }
-
-  @keyframes slide-main-img {
-    from {
-      opacity: 0;
-      transform: translateX(0px);
-    }
-    to {
-      opacity: 0;
-      transform: translateX(0px);
-    }
   }
 }
 @media (max-width: 412px) {
