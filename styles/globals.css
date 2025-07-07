@@ -1525,7 +1525,7 @@ h4 {
   }
   .home-text p {
     font-size: 1.5rem;
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
   }
   .main-contact {
     gap: 7.5rem;
@@ -1563,9 +1563,11 @@ h4 {
   .icons > a > span > svg {
     height: 3rem;
   }
-  
   .home-text h1 {
-    font-size: 2.85rem;
+    font-size: 2.65rem;
+  }
+  .home-text > h1 > span {
+    font-size: 2.5rem;
   }
   .home-text p {
     font-size: 1.25rem;
