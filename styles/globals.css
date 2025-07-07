@@ -1397,7 +1397,8 @@ h4 {
     flex-direction: column;
   }
   .shoping-cart {
-    height: 92.5vh;
+    /* height: 92.5vh; */
+    height: 88.5vh;
     width: 275px;
   }
   .show-shoping-cart {
@@ -1488,6 +1489,7 @@ h4 {
   .order-now-modal {
     font-size: 0.5rem;
     padding: 0px 12.5rem !important;
+    height: 100vh;
   }
   .pitch,
   .explaination,
@@ -1501,11 +1503,15 @@ h4 {
     font-size: 1.5rem;
   }
   .back-to-site-btn {
-    margin-top: 5rem;
+    margin-top: 1.5rem;
     font-size: 1rem;
   }
   .contact-content li a {
     font-size: 20px;
+  }
+  .go-to,
+  .this-site {
+    font-size: 1.5rem;
   }
   .menu {
     margin: 0;
@@ -1565,6 +1571,12 @@ h4 {
   }
   .icons > a > span > svg {
     height: 3rem;
+  }
+  #__next > div > div.pitch > div.icons.flex.align-center.justify-center.gap-24.py-2 > a:nth-child(1) > span > svg {
+    height: 3.85rem;
+  }
+  #__next > div > div.pitch > div.icons.flex.align-center.justify-center.gap-24.py-2 > a:nth-child(3) > span > svg {
+    height: 3.35rem;
   }
   .home-text h1 {
     font-size: 2.75rem;
