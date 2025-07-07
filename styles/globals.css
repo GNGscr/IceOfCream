@@ -1456,6 +1456,9 @@ h4 {
     flex-grow: 1;
     margin: 0 1rem;
   }
+  .home-text > .btn {
+    bottom: -7.5rem;
+  }
   .container-box {
     grid-template-columns: repeat(auto-fit, minmax(350px , auto));
   }
@@ -1510,18 +1513,12 @@ h4 {
     padding-top: 5rem;
     grid-template-columns: 1fr;
   }
-  .about-img {
-    display: none;
-  }
-  .home-img {
-    height: 0;
-  }
   .home-text {
     height: fit-content;
     padding-top: 0;
   }
-  .home-text > .btn {
-    bottom: -5rem;
+  .about-img {
+    display: none;
   }
   .home-text h1 {
     font-size: 3.25rem;
@@ -1578,6 +1575,17 @@ h4 {
   }
   .container-box {
     gap: 1.5rem;
+  }
+
+  @keyframes slide-main-img {
+    from {
+      opacity: 0;
+      transform: translateX(0px);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(0px);
+    }
   }
 }
 @media (max-width: 412px) {
