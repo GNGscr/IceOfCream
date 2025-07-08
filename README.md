@@ -9,13 +9,9 @@ IceOfCream App is a basic project in Nextj.s utilizing only a single page of an 
 **Code:** [IceOfCream repository](https://github.com/GNGscr/IceOfCream) 
 
 
-**Live site:** [IceOfCream App Preview](./public/images/screenshot.png)
-
----
-
 ## Deployed on Vercel
 
-[IceOfCream App Platform](https://ice-of-cream.vercel.app/)
+**Live site:** [IceOfCream App](https://ice-of-cream.vercel.app/)
 
 ---
 
