@@ -1,4 +1,4 @@
-# IceOfCream
+# IceOfCream - Basic ice cream website
 
 IceOfCream App is a basic project in Nextj.s utilizing only a single page of an Ice cream website
 
@@ -6,11 +6,10 @@ IceOfCream App is a basic project in Nextj.s utilizing only a single page of an 
 
 ## 📸 Preview
 
-![IceOfCream App Preview](./public/images/screenshot.png)
+**Code:** [IceOfCream repository](https://github.com/GNGscr/IceOfCream) 
 
----
 
-You can check out [IceOfCream repository](https://github.com/GNGscr/IceOfCream) 
+**Live site:** [IceOfCream App Preview](./public/images/screenshot.png)
 
 ---
 
@@ -22,7 +21,9 @@ You can check out [IceOfCream repository](https://github.com/GNGscr/IceOfCream)
 
 ## ✨ Features
 
-- Animations
+- UI - Plus micro interaction
+- Animations - Nativ Css
+- Dynamic navbar tabs on scroll
 - Cart Logic
 
 ---
@@ -35,25 +36,47 @@ You can check out [IceOfCream repository](https://github.com/GNGscr/IceOfCream)
 
 ---
 
+## 📱 Responsiveness
+
+- Responsive across:
+  - Desktop 💻
+  - Mobile 📲
+
+---
+
+## 🎨 Light & Dark Mode
+
+- Utilize color mode scheme
+
+---
+
 ## 🚀 Getting Started
 
 1. **Clone the repo**  
-   ```bash
+```bash
    git clone https://github.com/GNGscr/IceOfCream.git
    cd IceOfCream
+```
 
 2. **Install dependencies**  
-
+```bash  
   npm install
+```
 
-3. **Start the dev server**
+3. **Run the dev server**
 
-  npm run dev
+```bash
+    npm run dev
+```
+
+The app will run on `http://localhost:3000`.
+
+---
 
 ## 📦 Build for production
-
+```bash
   npm run build
-
+```
 
 ## 👨‍💻 Author
 
