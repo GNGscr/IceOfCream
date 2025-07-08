@@ -81,5 +81,5 @@ The app will run on `http://localhost:3000`.
 
 ## 👨‍💻 Author
 
-  Built by Daniel Ehrlich as side project.# IceOfCream
+  Built by **Daniel Ehrlich** as side project.# IceOfCream
 
