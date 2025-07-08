@@ -21,7 +21,7 @@ IceOfCream App is a basic project in Nextj.s utilizing only a single page of an 
 
 ## ✨ Features
 
-- UI - Plus micro interaction
+- UI - with micro interaction
 - Animations - Nativ Css
 - Dynamic navbar tabs on scroll
 - Cart Logic
