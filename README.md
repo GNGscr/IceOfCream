@@ -1,4 +1,4 @@
-# IceOfCream - Basic ice cream website
+# IceOfCream - Ice cream website
 
 IceOfCream App is a basic project in Nextj.s utilizing only a single page of an Ice cream website
 
