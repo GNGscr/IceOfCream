@@ -13,12 +13,12 @@ export default function Custom404() {
         <title>404 – Page Not Found</title>
       </Head>
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#121212] text-white px-4 text-center">
-        <h1 className="text-6xl font-bold mb-4">404</h1>
+        <h1 className="not-found-header text-6xl font-bold mb-4">404</h1>
         <div className="404-dolphin-animation">
           <SectionAnimation menuIsActive={true} media={"mobile"} />
         </div>
         <div className="text-2xl mb-6">
-          <div className="w-full flex align-center justify-center text-[1.5rem] mb-[5px]">
+          <div className="sentence w-full flex align-center justify-center text-[1.5rem] mb-[5px]">
             {letters.map((char, i) => {
               return (
                 <motion.div
@@ -50,7 +50,7 @@ export default function Custom404() {
         >
           <Link
             href="/"
-            className="text-2xl text-blue-300 hover:text-blue-200"
+            className="back-home text-2xl text-blue-300 hover:text-blue-200"
           >
             ← Back to Home
           </Link>

@@ -1622,6 +1622,16 @@ h4 {
   .cta {
     bottom: 8.5rem;
   }
+  .not-found-header {
+    margin-top: -5rem;
+  }
+  .sentence {
+    display: none;
+  }
+  .back-home {
+    position: relative;
+    top: 5rem;
+  }
 }
 @media (max-width: 412px) {
     
