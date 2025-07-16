@@ -1186,6 +1186,9 @@ h4 {
 .created-by-de {
   position: relative;
 }
+.not-found-dolphin-animation > div > div {
+  background: none !important;
+}
 
 @media (max-width: 1690px) {
   section {
